@@ -1,0 +1,3 @@
+node_modules
+tesseract/eng.traineddata
+convnet/traindata

@@ -1,0 +1,25 @@
+{
+  "name": "machine-learning-nodejs-examples",
+  "version": "1.0.0",
+  "description": "Примеры использования модулей из области machine learning на nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "convnetjs": "^0.3.0",
+    "tesseract.js": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saveryanov/machine-learning-nodejs-examples.git"
+  },
+  "author": "Sergey Averyanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saveryanov/machine-learning-nodejs-examples/issues"
+  },
+  "homepage": "https://github.com/saveryanov/machine-learning-nodejs-examples#readme"
+}
