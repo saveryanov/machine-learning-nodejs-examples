@@ -34,10 +34,14 @@ Tesseract.detect(imagePath)
     });
 */
 
-// Text recognition
-Tesseract
-    //.recognize(imagePath, {lang: "rus"})
-    .recognize(imagePath, {lang: "eng"})
-    .progress(progress => console.log('progress', progress))
-    .then(result => console.log(result.text))
-    .then(() => process.exit(0));
+module.exports = function() {
+    // Text recognition
+    Tesseract
+        .recognize(imagePath, { lang: './langs/eng' })
+        .progress(progress => console.log('progress', progress))
+        .then(result => console.log(result.text))
+        .then(() => process.exit(0));
+}
+
+
+module.exports();

@@ -9,4 +9,5 @@
 * deeplearn.js https://github.com/PAIR-code/deeplearnjs
 * keras.js https://github.com/transcranial/keras-js
 * tesseract.js (only OCR) https://github.com/naptha/tesseract.js
+* node-tesseract (only OCR) https://github.com/desmondmorris/node-tesseract
 * opencv4nodejs https://github.com/justadudewhohacks/opencv4nodejs
