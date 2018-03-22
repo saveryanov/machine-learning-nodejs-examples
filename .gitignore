@@ -1,3 +1,4 @@
 node_modules
 tesseract/eng.traineddata
+tesseract/rus.traineddata
 convnet/traindata
